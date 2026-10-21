@@ -351,6 +351,8 @@ Overall, the limits were mechanical (traction, steering geometry, subsystem plac
 
 ## Team
 
+The robot was designed and built by three subsystem leads, who carried it through to competition.
+
 **Seth A. Hibpshman**  
 Student of Electrical and Computer Engineering, Eastern Washington University  
 Electrical system, custom PCB, power distribution board, battery analysis, firmware
@@ -364,6 +366,10 @@ Student of Mechanical Engineering, Eastern Washington University
 Robotic arm
 
 American Society of Mechanical Engineers, Eastern Washington University Chapter.
+
+**Additional contributors**
+
+Thank you to the other members of the EWU ASME chapter who contributed earlier in the season. Their early work on research, prototyping, and testing helped shape the project, and the final design builds on it.
 
 ## AI Disclosure
 _AI (LLM) tools were used in the drafting and editing of this README; the project design, hardware, and firmware are the team's own work._
