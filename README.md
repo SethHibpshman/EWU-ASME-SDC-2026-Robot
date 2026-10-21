@@ -3,16 +3,10 @@
 > A remotely controlled garbage truck robot built for the 2026 ASME Student Design Competition, featuring a custom KiCad PCB and power distribution board, Arduino iBUS teleoperation, rear wheel drive with servo steering, a robotic arm, and a rotary dumping bucket. **3rd place overall.**
 
 <p align="center">
-  <a href="YOUR_VIDEO_LINK_HERE">
-    <img src="/assets/cover-cad-render.png" width="400" alt="Watch demo">
-  </a>
+  <img src="/assets/cover-cad-render.png" width="400" alt="CAD render of the finished garbage truck robot">
 </p>
 
-<p align="center">
-  <a href="YOUR_VIDEO_LINK_HERE">▶️ Watch the Full Demo</a>
-</p>
-
-> Full written report and the battery analysis are in [`/docs`](/docs). Build documentation, hardware reference, and software notes can live in the [project wiki](../../wiki).
+> The original written papers (the full ASME SDC report and the battery analysis) are in [`/docs`](/docs). The KiCad PCB files and 3D models are in [`/hardware`](/hardware).
 
 ## Table of Contents
 
@@ -171,7 +165,7 @@ $$\text{NiMH AA (6S): } V_{load} = 7.2 - 2(0.12) = 6.96\ \text{V}$$
 
 ### PCB Design
 
-Designed in KiCad and fabricated through JLCPCB. All project files are in [`/hardware/pcb`](/hardware/pcb).
+Designed in KiCad and fabricated through JLCPCB. All project files are in [`/hardware/KiCAD PCB`](</hardware/KiCAD PCB>).
 
 - LM2596 buck converter footprint for the 5 V rail
 - Arduino Nano Every mounted directly on the board
@@ -190,19 +184,19 @@ Designed in KiCad and fabricated through JLCPCB. All project files are in [`/har
 
 ### Software
 
-Arduino sketch (version 10.0.0) running on the Nano Every, adapted from SwapnilNimbalkar's iBUS to PWM receiver tutorial.
+Arduino sketch (version 10.0.0) running on the Nano Every, adapted from SwapnilNimbalkar's iBUS to PWM receiver tutorial. The full listing is also in the appendix of the report in [`/docs`](/docs).
 
 **Dependencies:** `Servo`
 
 ```
-firmware/    # Arduino iBUS teleoperation sketch
+firmware/    # Arduino iBUS teleoperation sketch (.ino)
 ```
 
 <img src="/assets/fig15-arduino-code.png" width="30%" alt="Arduino firmware listing">
 
 ### Mechanical Design
 
-*Written by Zachary Jump, with arm and dumper integration by David Alvarado.*
+*Written by Zachary Jump, with arm and dumper integration by David Alvarado. CAD files are in [`/hardware/3D Models`](</hardware/3D Models>).*
 
 #### Chassis
 
