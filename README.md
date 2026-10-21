@@ -367,9 +367,9 @@ Robotic arm
 
 American Society of Mechanical Engineers, Eastern Washington University Chapter.
 
-**Additional contributors**
+**Additional Contributors**
 
-Thank you to the other members of the EWU ASME chapter who contributed earlier in the season. Their early work on research, prototyping, and testing helped shape the project, and the final design builds on it.
+Thank you to the other members of the EWU ASME chapter who had contributions earlier in the season. Their work on research and brainstorming helped shape the project, and the final design builds on it. *If you did not receive recognition for your work on this project, please reach out to shibpshman1@ewu.edu to be named in this additional contributors section.*
 
 ## AI Disclosure
 _AI (LLM) tools were used in the drafting and editing of this README; the project design, hardware, and firmware are the team's own work._
